@@ -1,0 +1,67 @@
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
+nav {
+	background-color: lightgreen;
+	width: 100%;
+	height: 4rem;
+	padding: 1rem 3rem;
+}
+
+nav li {
+	position: bottom;
+	display: inline;
+	margin: 0 1rem;
+}
+
+#wrapper {
+	background-color: cornsilk;
+	width: 90%;
+	height: 40em;
+	margin: auto;
+}
+
+.slideShow {
+	display: inline-flex;
+	justify-content: space-between;
+	background-color: lightblue;
+	width: 91%;
+	height: 30em;
+	/*padding: 2rem;*/
+	margin: 0;
+	position: relative;
+}
+
+.slideImg {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-size: contain;
+}
+
+.description {
+	/*margin-top: 90%;*/
+	width: 100%;
+}
+
+.arrow {
+	border: solid 0 3px 3px 0;
+	border-color: darkgrey;
+	padding: 3px;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	/*position: absolute;*/
+}
+
+.right {
+	transform: rotate(-45deg);
+	position: right absolute;
+}
+
+.left {
+	transform: rotate(135deg);
+	position: left absolute;
+}
