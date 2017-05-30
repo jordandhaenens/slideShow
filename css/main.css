@@ -24,22 +24,23 @@ nav li {
 }
 
 .slideShow {
+	background-size: 100%;
+	background-repeat: no-repeat;
 	display: inline-flex;
 	justify-content: space-between;
-	background-color: lightblue;
-	width: 91%;
-	height: 30em;
+	width: 100%;
+	height: 35em;
 	/*padding: 2rem;*/
 	margin: 0;
 	position: relative;
 }
 
-.slideImg {
+/*.slideImg {
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	background-size: contain;
-}
+}*/
 
 .description {
 	/*margin-top: 90%;*/
@@ -52,16 +53,16 @@ nav li {
 	padding: 3px;
 	width: 50px;
 	height: 50px;
-	background-color: white;
+	background-color: green;
 	/*position: absolute;*/
 }
 
-.right {
+/*.right {
 	transform: rotate(-45deg);
 	position: right absolute;
-}
+}*/
 
-.left {
+/*.left {
 	transform: rotate(135deg);
 	position: left absolute;
-}
+}*/

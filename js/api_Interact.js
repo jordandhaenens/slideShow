@@ -13,13 +13,13 @@ let apiInfo = {
 
 // console.log("apiInfo", apiInfo);
 
-function picGetter(){
+function picGetter(startDate){
 	console.log("url", apiInfo.url);
 	console.log("key", apiInfo.key);
-	// console.log("startDate", startDate);
+	console.log("startDate", startDate);
 	return new Promise(function(resolve, reject){
 		$.ajax({
-			url: `${apiInfo.url}?${apiInfo.key}`
+			url: `${apiInfo.url}?${apiInfo.key}&date=${startDate}`
 		}).done(function(data){
 			resolve(data);
 		}).fail(function(error){
